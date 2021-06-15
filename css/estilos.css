@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.titulo{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.titulo-bec{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.becs{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+.becimg2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    width: 30%;
+}
+
+.desc{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.sep{
+    text-align: center;
+    background: #abffd1;
+    margin-top: 10px;
+    color: #abffd1;
+}
+
+.himnoo{
+    text-align: center;
+    justify-content: center;
+    background: #abffd1;
+}
+.contenido-texto-card{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.card{
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.test{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pasos{
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #a8ff78;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(162, 100%, 74%, 0.6), hsla(99, 100%, 74%, 0.6)), url(../img/portada.png);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(162, 100%, 74%, 0.6), hsla(99, 100%, 74%, 0.6)), url(../img/portada.png); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+
+}
+
+nav > a{
+    color:white;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 13px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: white;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Becarios*/
+.quesbec{
+    text-align: center;
+    background: #e6ffa0;
+    color:rgb(0, 0, 0)
+}
+
+.imagen-seg{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.titulo-bec{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    background: #e6ffa0;
+}
+
+
+
+.josep{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    background: #abffd1;
+}
+
+.pedr{
+    text-align: center;
+    background: #abffd1;
+    color:rgb(0, 0, 0)
+}
+
+.himn{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    background: #abffd1;
+}
+
+.cancion{
+    text-align: center;
+    background: #e6ffa0;
+    color:rgb(0, 0, 0)
+}
+
+.contenedor-fam{
+    background: #e6ffa0;
+}
+
+.seguidores-contenedor{
+    background: #abffd1;
+}
+
+.cards{
+    background: #abffd1;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.space1{
+    background: #e6ffa0;
+    color: #e6ffa0;
+}
+
+.seguidores{
+    display: flex;
+    justify-content: space-evenly;
+    background: #e6ffa0;
+    text-align: center;
+}
+
+.titseg{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    background: #e6ffa0;
+}
+
+.convertirse{
+    display: flex;
+    justify-content: space-evenly;
+    background: #abffd1;
+    text-align: center;
+}
+
+.titcon{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    background: #abffd1;
+}
+
+.space2{
+    background: #abffd1;
+}
+
+.final{
+    background: #abffd1;
+    text-align: +10px;
+}
+
+.bec16{
+    justify-content: space-evenly;
+    display:flex;
+    text-align: center;
+}
+
+.becimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+
